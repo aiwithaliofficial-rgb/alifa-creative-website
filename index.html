@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alifa Creative — AI Ads That Stop the Scroll</title>
+  <meta name="description" content="Alifa Creative crafts AI UGC ads, CGI ads, cinematic ads and SaaS product promos that make brands impossible to ignore." />
+  <!-- Logo files are served from ./assets/ — no external images besides Google Fonts. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Ambient background glows (pure CSS, fixed behind everything) -->
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Alifa Creative — home">
+        <!-- Transparent logo (white A + orange C) sits directly on the dark nav -->
+        <img src="assets/logo-transparent.png" alt="Alifa Creative logo" class="brand-logo" />
+        <span class="brand-name">Alifa <em>Creative</em></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#brands" class="nav-link">Brands</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="mailto:business.alifacreative@gmail.com" class="btn btn-primary nav-cta">Start a Project</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="pulse-dot"></span> AI Video Ads Agency</p>
+        <h1 class="reveal">AI Ads That <span class="grad">Stop the Scroll</span></h1>
+        <p class="hero-sub reveal">Alifa Creative crafts AI UGC ads, CGI ads, cinematic ads and SaaS product promos that make brands impossible to ignore.</p>
+        <div class="hero-ctas reveal">
+          <a href="mailto:business.alifacreative@gmail.com" class="btn btn-primary">Start a Project →</a>
+          <a href="https://www.instagram.com/alifacreative/" target="_blank" rel="noopener" class="btn btn-ghost">See Our Work on Instagram</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat"><strong>2+</strong><span>Years Experience</span></div>
+          <div class="stat"><strong>3+</strong><span>Brands Served</span></div>
+          <div class="stat"><strong>4</strong><span>Core Services</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <!-- True logo, exactly as-is, inside a clean white rounded card -->
+        <div class="logo-card tilt" data-tilt>
+          <img src="assets/logo.png" alt="Alifa Creative — black A and orange C with a play button" />
+        </div>
+        <!-- Floating capability badges -->
+        <div class="float-badge badge-1">🎬 AI UGC Ads</div>
+        <div class="float-badge badge-2">🧊 CGI Ads</div>
+        <div class="float-badge badge-3">🎥 Cinematic Ads</div>
+        <div class="float-badge badge-4">💻 SaaS Promos</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">What we do</p>
+        <h2>Services built to <span class="grad">perform</span></h2>
+        <p class="section-sub">Four core services. One goal — creative that stops thumbs and moves numbers.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="glass-card tilt reveal" data-tilt>
+          <div class="card-icon">🎬</div>
+          <h3>AI UGC Ads</h3>
+          <p>Authentic creator-style ads made with AI, built to convert — native to the feed, never salesy.</p>
+          <ul class="deliverables">
+            <li>Hook-first scripts</li>
+            <li>Native UGC look &amp; feel</li>
+            <li>Multiple angles per product</li>
+          </ul>
+        </article>
+        <article class="glass-card tilt reveal" data-tilt>
+          <div class="card-icon">🧊</div>
+          <h3>CGI Ads</h3>
+          <p>Jaw-dropping 3D product visuals and impossible camera moves your competitors can't match.</p>
+          <ul class="deliverables">
+            <li>Photoreal 3D renders</li>
+            <li>Impossible camera moves</li>
+            <li>Product hero moments</li>
+          </ul>
+        </article>
+        <article class="glass-card tilt reveal" data-tilt>
+          <div class="card-icon">🎥</div>
+          <h3>Cinematic Ads</h3>
+          <p>Film-quality brand stories with premium realism — the kind of ad people actually remember.</p>
+          <ul class="deliverables">
+            <li>Story-driven concepts</li>
+            <li>Premium realistic visuals</li>
+            <li>Built for brand recall</li>
+          </ul>
+        </article>
+        <article class="glass-card tilt reveal" data-tilt>
+          <div class="card-icon">💻</div>
+          <h3>SaaS Product Promo Ads</h3>
+          <p>Clear, punchy promos that turn features into signups — no jargon, just the value, fast.</p>
+          <ul class="deliverables">
+            <li>Feature-to-benefit scripts</li>
+            <li>Crisp product walkthroughs</li>
+            <li>Signup-focused CTAs</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BRANDS ============ -->
+  <section class="section section-tight" id="brands">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Brands we've worked with</p>
+        <h2>Trusted by <span class="grad">DTC brands</span></h2>
+      </div>
+      <div class="wordmarks reveal">
+        <span class="wordmark">Fitcover</span>
+        <span class="wordmark">StarjuiceUSA</span>
+        <span class="wordmark">Routine&nbsp;MD</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">How we work</p>
+        <h2>From idea to <span class="grad">scroll-stopper</span> in four steps</h2>
+      </div>
+      <div class="steps">
+        <article class="step reveal">
+          <span class="step-num">01</span>
+          <h3>Discover &amp; Hook</h3>
+          <p>We research the brand and find the scroll-stopping angle before a single frame is made.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step-num">02</span>
+          <h3>Concept &amp; Script</h3>
+          <p>A sharp concept and a tight script — every word earns its place in the first three seconds.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step-num">03</span>
+          <h3>AI Production</h3>
+          <p>Premium AI generation with a human eye for realism, pacing and brand fit.</p>
+        </article>
+        <article class="step reveal">
+          <span class="step-num">04</span>
+          <h3>Edit &amp; Deliver</h3>
+          <p>Polished, platform-ready cuts delivered fast — built to run, not to sit in a folder.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY ALIFA CREATIVE ============ -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Why Alifa Creative</p>
+        <h2>Not just AI. <span class="grad">Ads that work.</span></h2>
+      </div>
+      <div class="why-grid">
+        <article class="why-card reveal">
+          <div class="why-icon">⚡</div>
+          <h3>Hooks in the first 3 seconds</h3>
+          <p>If the first three seconds don't stop the scroll, the rest doesn't matter. We build every ad around the hook.</p>
+        </article>
+        <article class="why-card reveal">
+          <div class="why-icon">✦</div>
+          <h3>Premium realism</h3>
+          <p>Our ads look like real commercials, not AI-looking clips. Realism is the bar — anything less doesn't ship.</p>
+        </article>
+        <article class="why-card reveal">
+          <div class="why-icon">🚀</div>
+          <h3>Fast turnaround</h3>
+          <p>AI speed with agency craft. Concepts move from brief to finished ad in days, not weeks.</p>
+        </article>
+        <article class="why-card reveal">
+          <div class="why-icon">🎯</div>
+          <h3>Performance-first creative</h3>
+          <p>Every frame is built to convert — views are nice, signups and sales are the point.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSTAGRAM / PORTFOLIO ============ -->
+  <section class="section section-tight" id="social">
+    <div class="container">
+      <div class="social-banner reveal">
+        <div class="social-copy">
+          <p class="eyebrow">Our work</p>
+          <h2>Our handles are our portfolio.</h2>
+          <p>See the latest ads, behind-the-scenes and client work — live on Instagram.</p>
+        </div>
+        <a href="https://www.instagram.com/alifacreative/" target="_blank" rel="noopener" class="btn btn-primary btn-lg">Follow @alifacreative →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Let's talk</p>
+        <h2>Ready to make ads<br />people can't scroll past?</h2>
+        <p class="section-sub">Tell us about your brand and the ad you need — we'll take it from there.</p>
+        <div class="contact-actions">
+          <a href="mailto:business.alifacreative@gmail.com" class="btn btn-primary btn-lg">business.alifacreative@gmail.com</a>
+          <a href="https://www.instagram.com/alifacreative/" target="_blank" rel="noopener" class="btn btn-ghost btn-lg">Instagram — @alifacreative</a>
+        </div>
+        <!-- Domain not purchased yet: plain text only, never a link. -->
+        <p class="domain-note">alifacreative.com — coming soon</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo-transparent.png" alt="Alifa Creative logo" class="footer-logo" />
+        <p>AI UGC, CGI, cinematic and SaaS promo ads for brands that refuse to blend in.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#brands">Brands</a>
+        <a href="#process">Process</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:business.alifacreative@gmail.com">business.alifacreative@gmail.com</a>
+        <a href="https://www.instagram.com/alifacreative/" target="_blank" rel="noopener">Instagram — @alifacreative</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Alifa Creative</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
